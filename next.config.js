@@ -1,5 +1,11 @@
-import { withPigment } from "@pigment-css/nextjs-plugin"
+// import { withPigment } from "@pigment-css/nextjs-plugin"
 
-const nextConfig = {}
+const { i18n } = await import('./next-i18next.config.cjs').then(
+    (mod) => mod.default
+)
 
-export default withPigment(nextConfig)
+const nextConfig = {
+    i18n
+}
+
+export default nextConfig
