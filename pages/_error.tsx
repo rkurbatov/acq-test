@@ -1,6 +1,7 @@
 // import { css } from '@pigment-css/react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations.js'
-import { useTranslation } from 'next-i18next'
+
+import { useTranslation} from 'next-i18next'
 
 const ErrorPage = () => {
     const { t } = useTranslation('common')
