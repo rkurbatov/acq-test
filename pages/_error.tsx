@@ -1,4 +1,4 @@
-// import { css } from '@pigment-css/react'
+import { css } from '@pigment-css/react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations.js'
 
 import { useTranslation} from 'next-i18next'
@@ -6,14 +6,14 @@ import { useTranslation} from 'next-i18next'
 const ErrorPage = () => {
     const { t } = useTranslation('common')
 
-    return <div>{t('App.Error')}</div>
+    return <div className={styles}>{t('App.Error')}</div>
 }
 
 export default ErrorPage
 
-// const styles = css({
-//     color: 'red'
-// })
+const styles = css({
+    color: 'red'
+})
 
 export const getServerSideProps = async (ctx) => {
     const localeProps = await serverSideTranslations(ctx.locale, ['common'])
