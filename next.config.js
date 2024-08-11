@@ -5,7 +5,13 @@ const { i18n } = await import('./next-i18next.config.cjs').then(
 )
 
 const nextConfig = {
-    i18n
+    i18n,
+    images: {
+        remotePatterns: [{
+            protocol: 'https',
+            hostname: 'images.pexels.com',
+        }]
+    }
 }
 
 export default withPigment(nextConfig)
