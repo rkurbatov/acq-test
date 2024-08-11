@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@pigment-css/react':
-    specifier: 0.0.17
-    version: 0.0.17(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
+    specifier: 0.0.20
+    version: 0.0.20(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
   next:
     specifier: 12.3.4
     version: 12.3.4(@babel/core@7.24.9)(react-dom@18.3.1)(react@18.3.1)
@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@pigment-css/nextjs-plugin':
-    specifier: 0.0.17
-    version: 0.0.17(@types/react@17.0.39)(next@12.3.4)(react@18.3.1)(typescript@5.1.6)
+    specifier: 0.0.20
+    version: 0.0.20(@types/react@17.0.39)(next@12.3.4)(react@18.3.1)(typescript@5.1.6)
   '@types/node':
     specifier: ^20.14.12
     version: 20.14.12
@@ -590,12 +590,12 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@pigment-css/nextjs-plugin@0.0.17(@types/react@17.0.39)(next@12.3.4)(react@18.3.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-8bnCwjAzJ0eygleO0VGx9/LDPTmGO7kZGK8fDZ6LALy5WJfuT+9hPeqj+6C+9bDpMpIaAEDOhTgyi2CzfolPSg==}
+  /@pigment-css/nextjs-plugin@0.0.20(@types/react@17.0.39)(next@12.3.4)(react@18.3.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-KOyhDfGqCNVfbKOG6fjzk42Kp1fVzMjypEc97j1Irju0/h3mYRfagrwTVX1AgVEVQUsQIGfZ6BNVd1Jf2y6osg==}
     peerDependencies:
       next: ^12.0.0 || ^13.0.0 || ^14.0.0
     dependencies:
-      '@pigment-css/unplugin': 0.0.17(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
+      '@pigment-css/unplugin': 0.0.20(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
       next: 12.3.4(@babel/core@7.24.9)(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
@@ -604,8 +604,8 @@ packages:
       - typescript
     dev: true
 
-  /@pigment-css/react@0.0.17(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-JxniKznqi1taW2X1YWwVYJWwBbHLB2guMQ0cbb1lMSN17Cj8kg1sZgqTjxi33pyb7YWZLo1y/EDybBfAgUKoWA==}
+  /@pigment-css/react@0.0.20(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-ctp4qV7iX51T9F1XKD86NccR1Odly8wQqm3JjFAboOXKvlZBkiJqXlDe9HIwKFI3z/MxHzu+TCYyexgceOK1cg==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
     dependencies:
@@ -636,11 +636,11 @@ packages:
       - supports-color
       - typescript
 
-  /@pigment-css/unplugin@0.0.17(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-ClbEWkbUSRsje/mswztVTZkgBzzp3wPFRhkbCivpRrZHMRe2B7mqyc+sPePeC4kX0jR9azxnCIEZGbT0gR1NuA==}
+  /@pigment-css/unplugin@0.0.20(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-hLECqhjSIjw7meNllVxobtDIObOuKGLxhZESSq5qpCqDwFMvApCgpSJKRxs8uY7EVBa1NuVhgK/Yn3JR5GNEKw==}
     dependencies:
       '@babel/core': 7.24.9
-      '@pigment-css/react': 0.0.17(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
+      '@pigment-css/react': 0.0.20(@types/react@17.0.39)(react@18.3.1)(typescript@5.1.6)
       '@wyw-in-js/shared': 0.5.4
       '@wyw-in-js/transform': 0.5.4(typescript@5.1.6)
       babel-plugin-define-var: 0.1.0
